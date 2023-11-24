@@ -3,46 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B Punit Kumar - Resume</title>
+    <title>Punit Kumar - Portfolio</title>
     <style>
       body {
+        background-color: #000;
+        color: #fff;
         font-family: Arial, sans-serif;
-        margin: 20px;
-        padding: 20px;
-        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
       }
 
       header {
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: 50px;
       }
 
       h1 {
-        color: #333;
+        font-size: 2.5em;
+        color: #fff;
+        margin: 0;
       }
 
       h2 {
-        color: #555;
+        font-size: 1.2em;
+        color: #fff;
+        margin-top: 5px;
       }
 
-      .contact-info {
-        margin-bottom: 20px;
+      section {
+        margin: 20px;
       }
 
-      .contact-info a {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      .education ul,
+      .experience ul,
+      .projects ul,
+      .organizations ul,
+      .certifications {
+        padding-left: 20px;
+      }
+
+      <style>
+    /* ... your existing styles ... */
+
+    .certifications li a  {
+        color: #fff;
         text-decoration: none;
-        color: #007bff;
-      }
+    }
+</style>
 
-      .section {
-        margin-bottom: 30px;
-      }
-
-      .project,
-      .organization,
-      .award,
-      .certificate {
-        margin-bottom: 20px;
       }
 
       footer {
@@ -56,67 +74,96 @@
   <body>
     <header>
       <h1>B Punit Kumar</h1>
-      <p>Aspiring Software Engineer.</p>
+      <h2>Aspiring Software Engineer.</h2>
     </header>
 
-    <div class="contact-info">
-      <p>Location: Bangalore, India</p>
-      <p>Email: punitbasarkod@gmail.com</p>
-      <p>Phone: 8971080132</p>
-      <p>
-        GitHub:
-        <a href="https://github.com/PunitBasarkod" target="_blank"
-          >https://github.com/PunitBasarkod</a
-        >
-      </p>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/punitkb/" target="_blank"
-          >https://www.linkedin.com/in/punitkb/</a
-        >
-      </p>
-    </div>
+  
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Engineering (Electronics and Communication)</strong><br>
+                Sir M Visvesvaraya Institute of Technology 2019 - 2023<br>
+                CGPA: 7.79 / Percentage: 70.40%
+            </li>
+            <li>
+                <strong>Pre-University</strong><br>
+                BNRK PU College 2017 - 2019 <br>
+                Percentage: 78.33%
+            </li>
+            <li>
+                <strong>SSLC</strong><br>
+                Trinity Public School 2016 - 2017 <br>
+                Percentage: 85.33%
+            </li>
+        </ul>
+    </section>
+    
+    </section>
 
-    <div class="section">
-      <h2>Education</h2>
-      <p>
-        Bachelor of Engineering (Electronics and Communication)<br />
-        Sir M Visvesvaraya Institute of Technology<br />
-        CGPA: 7.79 / Percentage: 70.40%
-      </p>
-      <p>
-        Pre-University<br />
-        BNRK PU College<br />
-        Percentage: 78.33%
-      </p>
-      <p>
-        SSLC<br />
-        Trinity Public School<br />
-        Percentage: 85.33%
-      </p>
-    </div>
+    <section class="experience">
+      <h2>Professional Experience</h2>
+      <ul>
+          <li>
+              <strong>Compsoft Technologies - Internship</strong><br>
+              <em>Intern</em><br>
+              Duration: 08/2022 – 09/2022<br>
+              <ul>
+                  <li>Gained invaluable insights about Python and Machine Learning.</li>
+                  <li>Developed and rigorously tested a Healthcare Chatbot, amplifying hands-on ML expertise.</li>
+                  <li>Implemented HTML and CSS for the front end, integrated ML for backend functionality.</li>
+                  <li>Assessed Chat-bot efficacy, quantifying its impact on healthcare communication.</li>
+              </ul>
+          </li>
+      </ul>
+  </section>
+  
 
-    <!-- Add sections for skills, professional experience, projects, organizations, awards, certificates, languages, and interests -->
+    <section class="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li>Diabetic Retinopathy using ML</li>
+        <li>To-Do List App</li>
+      </ol>
+    </section>
 
-    <div class="section">
-      <h2>Skills</h2>
-      <p>Programming Language - C++, Java, Python and OOPS</p>
-      <p>Database - SQL</p>
-      <p>Web development - HTML & CSS</p>
-      <p>Software and Tools: Git ,GitHub, Docker, AWS.</p>
-      <p>Others - SDLC, STLC and Linux</p>
-    </div>
+    <section class="organizations">
+      <h2>Organizations</h2>
+      <ul>
+        <li>
+          Abhikalpana Trust (NGO) - Head of Shine Session and Board of Member
+        </li>
+      </ul>
+    </section>
 
-    <div>
-      <h2>PROFESSIONAL EXPERIENCE</h2>
-      <p>
-        Compsoft Technologies -Internship Intern My internship was an invaluable
-        learning opportunity during which I gained more knowledge of Machine
-        Learning.I was able to create, develop & test a Chatbot for a Healthcare
-        network with the help of creating its instructional model and assessing
-        its effectiveness.
-      </p>
-    </div>
+    <section class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+          <li>
+              <a href="https://drive.google.com/file/d/14QpYCjZGS7zCL_z5C41d0zxozotm-bJ2/view?usp=sharing" target="_blank">Java Training Complete Course</a>
+          </li>
+          <li>
+              <a href="https://drive.google.com/file/d/1eMfGCpFniRmm83TsDGrh5CS_FRvpClRW/view?usp=sharing" target="_blank">Build Real-world Websites with HTML & CSS</a>
+          </li>
+          <li>
+              <a href="https://drive.google.com/file/d/1aZigV7j0eaIBoFegcctqy4DwLDFVxfyM/view?usp=sharing" target="_blank">Git and GitHub Master Course</a>
+          </li>
+      </ul>
+      <ul>
+          <li>
+              <a href="https://drive.google.com/file/d/1AIHaNMR8DpyuYl9OMja4Bj_sfoNqJIl2/view?usp=sharing" target="_blank">Python Programming Master Course</a>
+          </li>
+          <li>
+              <a href="https://drive.google.com/file/d/1piK-4TgkmKysMOY7Vk6LNNMtrhwq7Lg1/view?usp=sharing" target="_blank">Docker Crash Course for Beginners</a>
+          </li>
+      </ul>
+  </section>
+  
+
+    <section class="interests">
+      <h2>Interests</h2>
+      <p>Cricket, Technical Summits, and Meetups</p>
+    </section>
 
     <footer>
       <p>&copy; 2023 Punit Kumar</p>
